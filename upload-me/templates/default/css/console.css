@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+
+div.console
+{	
+	padding: 5px;
+	color: #c0c0c0;
+	background-color: #000;
+	border: 1px solid #ddd;
+	height: 300px;
+	overflow: auto;
+}
+div.main_full input[type="text"].console
+{
+	width: 70%;
+	text-align: left;
+	padding-left: 2px;
+}

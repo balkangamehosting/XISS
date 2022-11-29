@@ -1,0 +1,29 @@
+Web Server:
+------------
+Common:
+
+- Minimum PHP version 5.3.4
+- CURL (if you're planning to run cronjobs)
+- PDO & FTP extensions enabled (they usually are)
+
+Apache:
+- mod_rewrite has to be enabled
+
+Nginx:
+- You have block template in extra folder.
+
+Recommended:
+- Database was created on MySQL 5.5, I see no reason why it wouldn't work on 
+  MySQL 5.0 version but would recommend 5.5 to be on the safe side..
+  
+------------
+
+Game Boxes:
+Currently you need to install few things (will be automated soon).
+
+- screen (apt-get install screen or yum install screen)
+
+NOTE: Currently only debian, ubuntu and centOS are supported for Boxes.
+  There's no specific reason besides package manager why it wouldn't work on
+  different linux boxes..so if you're using linux that's using apt-get or yum packager
+  it should work just as fine as well..support for other distros is in process.  

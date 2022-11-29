@@ -1,0 +1,52 @@
+XISS Game Panel License(s) & Notes
+
+
+Core of the project is released under GPLv3 license.
+Read full license description @ http://www.gnu.org/licenses/gpl-3.0.html
+
+In nutshell:
+----------------------------------------------------
+Following code is released under GPLv3 license:
+- Modules/ 
+- Plugins/ with exception of FTP class.
+- Core/ with exception of "vendors/" folder, class_Database container & dispatcher.php. 
+- Lang/
+- Install/
+- Templates/ with exception of images (obtained by various icon packs (explained lower)).
+
+
+3rd Party Software
+----------------------------------------------------
+	Project utilizes some code that's compatible but licensed under different licenses. 	
+	
+	Following 3rd party software is used:
+	- Smarty engine (GPL License)
+	- Pimple Container class (MIT License)
+	- CRUD Class (Unknown license -> contact author at admin@indieteq.com if you're planning to shift license)
+	- FTP script in plugins folder (GPL license)
+	- PhpSecLib (MIT License)
+	- GEIOP Libraries (Maxmind end-user License Agreement)
+	- GameQ (GPL License)
+	- BrightGame Panel for cron task (GNU/GPLv3)
+	- Dispatcher:
+		Was writen by me a while ago. I've used various sources for reference but wrote it by hand. 
+		I do remember that core principle was deriven from specific example but sadly cannot remember the source.
+		If anyone recognizes the code please contact me so I can credit the author and link to original source. 
+	- Icons for templates:
+		Some of icons were derived from icon pack under gpl license (original license got lost as it's been a while),
+		but some of icons appear to be derived from CC alike licenses and as such in some cases they could be 
+		incompatible with GPL license that they were distributed with. I didn't feel like hunting each icon used
+		for it's license so if there's any problems or author wishes recognition or their work removed please 
+		contact me at nate.afk@gmail.com.
+		Css and Html was writen by me as such it's under GPLv3 license.
+		
+
+----------------------------------------------------		
+Product: XISS Game Panel
+Contact: nate.afk@gmail.com
+Forums: http://rtcwx.com
+Bugs & Latest Source Code: http://dev.rtcwx.com/projects/gamepanel
+Created: 01.Sept/2013
+		
+		
+		 

@@ -1,0 +1,66 @@
+Template is a part of the XISS GamePanel project but includes parts 
+of different GPL/CC licensed templates.
+
+
+Login screen
+================================================
+/**
+	Login is Based on:
+	AdminPanel by Pawel 'kilab' Balicki
+    downloaded from http://kilab.pl
+
+LICENSE: 	
+	This work is licensed under a Creative Commons 3.0
+	
+	You Can for free:
+		*to Share - to copy, distribute and transmit the work 
+		*to Remix - to adapt the work 
+		*to make commercial use of the work
+	
+ICONS SET:
+	Icons used in template donloaded from:
+		* http://pc.de/icons/
+		* http://www.famfamfam.com/
+*/
+
+
+Icons (Admin & Default):
+================================================
+/**
+Icons were downloaded from following sources:
+
+http://findicons.com
+http://www.iconarchive.com
+
+Icons have different licenses:  
+- GPL (v2 or v3)
+- CC (Various branches)
+
+It's hard to maintain each individual file (point of origin) as sometimes
+file is released on various different sources under different license/author so
+instead of crediting individuals, I rather point out where I got them.
+
+If any author feels (s)he should be credited or wants their work removed 
+please drop me a note at my email: nate_afk@gmail.com and I'll gladly 
+add it here/remove it from project. 
+*/
+
+
+Templates (Admin & Default)
+================================================
+/**
+Templates that didn't derived from sources above were done by me (to greater extend),
+as such you're free to do with them what you want. 
+Script Source code is property licensed and has it's own license
+but templates are released under WTFPL v2 License (http://en.wikipedia.org/wiki/WTFPL).
+
+Bottom line:
+Do what you want..If you find templates usefull I wouldn't mind if you would 
+drop a note under your credits, but if not, so be it. ;) 
+
+Nate 'L0,
+XISS GamePanel 
+*/
+
+
+ 

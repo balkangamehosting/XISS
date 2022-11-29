@@ -1,0 +1,64 @@
+~~XISS Game Panel Install Instructions~~
+
+Basic instructions
+
+a) Using installer
+------------------
+1) Create database and user in your database (use etc phpmyadmin) 
+2) Extract archive to your desktop or location of your chosing.
+3) Inside "upload-me" folder open config.php with editor of your choice.
+  -- Change "Database Vars" to match your database name, user and passsword.
+  -- Go to http://repository.rtcwx.com/generate.php and copy output 
+     bellow Security related Vars (replace current ones)
+  -- Change general settings (timezone & sub-folder if panel will run in it..)
+  -- Optionally edit any other changes 
+     (you can change that from admin panel later on as well..).
+4) Upload everything from "upload-me" folder on your server
+5) Open YOUR-URL/install and follow the process
+6) After install try to login and if all went right, delete install folder.
+7) Move config.php outside of your web root (supports up to 6 levels above script root).
+
+
+b) Manual install (if installer fails)
+--------------------------------------
+1) Create database and user in your database (use etc phpmyadmin) 
+2) Import to your database file residing in "extra/sql" folder.
+3) Inside "upload-me" folder open config.php with editor of your choice.
+  -- Change "Database Vars" to match your database name, user and passsword.
+  -- Go to http://repository.rtcwx.com/generate.php and copy output 
+     bellow Security related Vars (replace current ones)
+  -- Change general settings (timezone & sub-folder if panel will run in it..)
+  -- Optionally edit any other changes 
+     (you can change that from admin panel later on as well..).
+4) Upload everything from "upload-me" folder on your server   
+5) Delete install folder.
+6) Move config.php outside of your web root (supports up to 6 levels above script root).
+7) Login with 
+username: admin 
+password: admin 
+8) Change your username and password (use clients and edit your self to be
+able to change username).
+
+
+Security:
+------------------
+- To enhance your security make sure all folders are owned by your web user (usually www-data).
+- Make sure config.php is placed outside of webroot folder.
+- Make sure all folders have permission set to 644 or alternatively to 755
+  NOTE: Permissions are depended of how your server is configured..poorly configured
+  servers will have issues with anything but 777 but in that case, you have a serious
+  problem on your hand..which is beyond the scope of this instructions.
+  
+
+Extra:
+------------------
+Once you installed your script, you can overwrite general settings (inside config.php)
+from your admin general settings. 
+
+If any problems or questions please use XISS forum or issue a ticket on project site.
+
+Forum: http://rtcwx.com
+Project site: http://dev.rtcwx.com/projects/gamepanel
+
+----  
+XISS Game Panel

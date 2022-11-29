@@ -1,0 +1,132 @@
+@CHARSET "UTF-8";
+
+/***********/
+/* General */
+div.main_full
+{
+	overflow: auto;
+}
+
+/**********/
+/* Tables */
+table.default_tbl
+{
+	width: 100%;
+	background-color: #fff;
+	border-collapse:collapse;
+	font-size: 14px;	
+	
+	/*CSS3 hacks*/
+	-webkit-box-shadow: 3px 3px 4px rgba(44, 50, 50, 0.10);
+	-moz-box-shadow:    3px 3px 4px rgba(44, 50, 50, 0.10);
+	box-shadow:         3px 3px 4px rgba(44, 50, 50, 0.10);
+	
+	/* IE crap */
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+table.default_tbl tr:hover 
+{
+	background-color: #fafafa;
+}
+
+table.default_tbl tr.inactive {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+table.default_tbl tr.active {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+table.default_tbl th
+{
+	background-color: #ddd;
+	color: #555;
+	text-shadow: #fff 1px 1px 1px;
+	border: 1px solid #c0c0c0;		
+}
+
+table.default_tbl th a
+{
+	font-size: 10px;
+	color: #f00;
+	text-decoration: none;	
+}
+
+table.default_tbl td
+{
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 3px 0;
+}
+
+table.default_tbl td.text_left 
+{
+	text-align: left;
+	padding-left: 10px;	
+}
+
+table.default_tbl td span 
+{
+	display: block;
+}
+
+table.default_tbl td a
+{
+	text-decoration: none;
+	color: #f00;
+}
+table.default_tbl td a:hover
+{
+	color: #b81111;
+}
+table.default_tbl td a.file
+{
+	text-decoration: none;
+	color: #444444;
+}
+
+table.default_tbl td img 
+{
+	border: none;
+	vertical-align: bottom;
+	padding: 0 5px;
+}
+
+/*********/
+/* Forms */
+form.ftp 
+{
+	float: left;
+}
+form.ftp label 
+{
+	display: block;
+	background-color: #ddd;
+	padding: 2px 5px;
+	margin-bottom: 5px;	
+	text-shadow: #fff 1px 1px 1px;
+	font-size: 12px;
+}
+
+/*************/
+/* Nav links */
+a.navicons img 
+{
+	border: none;	
+}
+
+/**************/
+/* Edit config */
+div.main_full textarea.editfile
+{
+	width: 100%;
+	height: 600px;
+	overflow-y: auto;
+	clear: both;
+}

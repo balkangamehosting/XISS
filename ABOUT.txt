@@ -1,0 +1,65 @@
+XISS (Keep it Simple Stupid) Game Panel
+
+About:
+----------
+XISS Game panel is basically an enhanced open sourced clone-alike of Swift Panel.
+It's aim is to take a simple approach with server managment over web interface.
+
+Script is coded from foundations by Nate 'L0 utilizing some open source scripts 
+in process. 
+
+What does it offer?
+----------
+Script in current form (Alpha Pub Release) offers following:
+- A simple FTP interface
+- A simple auto refresing console interface (using screen utilites)
+- Simple box installation
+- Basic stats for box managing
+- Simplifed server management
+- Auto installing procedure of servers (currently manual pre-install of game is required)
+- Simple ACL handling (User (customer), Reseller, Admin) with level based container.
+- Simple user handling.
+- Simplifed template handling (smarty templates).
+- (arguably) simplifed OOP extendability.
+
+What is currently planned for it? 
+----------
+- Cleaning of (duplicated) code and propper MVC separation of code.
+- Fixing bunch of "unwanted features" (a.k.a. bugs).
+- Support for other linux (box) distribution.
+- Enhancing FTP & SSH (console) experience.
+- Steam, TeamSpeak & Ventrilo support.
+- Optimizing and enhancing reseller handling.
+- Extending and enhancing of Admin functionality.
+- Blog support so front end can serve as gateway for new customers.
+- Paypal support (along with blog support).
+- Automated install of required tools for Boxes.
+- Repository server so games can be fetched using public repository.
+- ...
+
+How can you help?
+----------
+You can help in various ways, such as:
+- Report bugs,
+- Donate code features or patches,
+- Alternatively you can also donate (http://rtcwx.com/donate/) to show your support for this project.
+- ... 
+
+Developer notes:
+----------
+- XISS Game panel is running on custom (mini) framework I wrote time ago and which 
+  I occasionally update. It's far from ideal and lacks some serious features before 
+  it can even be labelled as framework..but hey, it works for me (most of the times).
+
+- I've tried to stick to same standards of coding all over, but some code is old 
+  or not made by me so standards in that case may vary. 
+  
+- I avoided duplicating code as much as I could but due limited framework approaches
+  that sometimes simply wasn't possible. In future I'm planning to update it to more 
+  correct and modern handling. 
+ 
+
+
+
+
+ 

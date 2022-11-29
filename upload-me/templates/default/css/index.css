@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+/**********/
+/* Tables */
+
+table.default_tbl
+{
+	width: 100%;
+	background-color: #fff;
+	border-collapse:collapse;
+	font-size: 14px;	
+	
+	/*CSS3 hacks*/
+	-webkit-box-shadow: 3px 3px 4px rgba(44, 50, 50, 0.10);
+	-moz-box-shadow:    3px 3px 4px rgba(44, 50, 50, 0.10);
+	box-shadow:         3px 3px 4px rgba(44, 50, 50, 0.10);
+	
+	/* IE crap */
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+table.default_tbl tr:hover 
+{
+	background-color: #fafafa;
+}
+
+table.default_tbl tr.inactive {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+table.default_tbl tr.active {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+
+table.default_tbl th
+{
+	background-color: #ddd;
+	color: #555;
+	text-shadow: #fff 1px 1px 1px;
+	border: 1px solid #c0c0c0;		
+}
+
+table.default_tbl th a
+{
+	font-size: 10px;
+	color: #f00;
+	text-decoration: none;	
+}
+
+table.default_tbl td
+{
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 3px 0;
+}
+table.default_tbl td span 
+{
+	display: block;
+}
+
+table.default_tbl td a
+{
+	text-decoration: none;
+	color: #f00;
+}
+table.default_tbl td a:hover
+{
+	color: #b81111;
+}
+table.default_tbl td img 
+{
+	border: none;
+}
+/****************/
+/* Announcement */
+.announcement
+{	
+	text-align: center;
+	
+	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #528ecc;
+}
+div.announcement h1
+{	
+	font-size: 12px;	
+	background-color:#80b5ea;
+	padding: 2px 0;
+	color: #fff;
+}

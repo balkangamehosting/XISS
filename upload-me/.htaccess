@@ -1,0 +1,38 @@
+## DISALLOW ANY ACCESS TO THIS FILE ##
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
+
+## DISALLOW ANY ACCESS TO CONFIG FILE ##
+<Files config.php>
+ order allow,deny
+ deny from all
+</Files>
+
+## MOD_REWRITE ##
+<IfModule mod_rewrite.c>
+
+Options +FollowSymLinks
+IndexIgnore */*
+# Turn on the RewriteEngine
+RewriteEngine On
+#  Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php
+
+# Redirect to base on 403 error
+# FIXME : URL NEEDS TO BE ADJUSTED!
+# ErrorDocument 403 http://localhost/GamePanel/
+
+</IfModule>  
+## END MOD_REWRITE ##
+
+## MOD_DEFLATE - GZIP compression ##
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript text/javascript
+</ifmodule>
+## END MOD_DEFLATE ##   
+
+

@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+/***********/
+/* General */
+div.main_full h1 
+{
+	font-size: 12px;
+}
+
+div.main_full div.label
+{
+	width: 100px; 
+	text-align: right;
+	float: left;
+	margin-right: 10px;
+	font-weight:900;		
+}
+
+div.main_full form {
+	font-size: 10px;
+	color: #777;	
+}
+
+div.main_full form fieldset {
+	border: 1px solid #c0c0c0;
+}
+
+div.main_full form input[type="text"], div.main_full form input[type="password"]
+{
+	margin-top: -2px;
+}  
+
+div.main_full div.form_row {
+	margin: 10px;		
+}
+
+div.main_full div.form_row div {
+	width: 140px;
+	float: left;
+	margin-top: 1px;
+	font-weight: 800;
+	text-align: right;
+	padding-right: 10px;
+}

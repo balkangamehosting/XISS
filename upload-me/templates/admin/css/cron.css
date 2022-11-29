@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+/***********/
+/* General */
+div.main_full p.title 
+{
+	text-align: center;
+	background: #fff;
+	padding: 4px 0;
+	font-size: 12px;
+	color: darkred;
+}
+
+div.main_full div.cron
+{
+	text-align: center;	
+	background-color: #eee;
+	border: 1px solid #ddd;
+	font-size: 12px;	
+}
+
+div.main_full div.cron input
+{
+	padding: 3px 0;
+	border: 3px solid #eee;
+	width: 800px;
+	text-align: center;
+	margin-bottom: 10px;
+	text-shadow: #ddd 1px 1px 1px;
+}

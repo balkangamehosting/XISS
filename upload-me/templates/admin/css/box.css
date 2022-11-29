@@ -1,0 +1,199 @@
+@CHARSET "UTF-8";
+
+/**********/
+/* Tables */
+
+table.default_tbl
+{
+	width: 100%;
+	background-color: #fff;
+	border-collapse:collapse;
+	font-size: 14px;	
+	
+	/*CSS3 hacks*/
+	-webkit-box-shadow: 3px 3px 4px rgba(44, 50, 50, 0.10);
+	-moz-box-shadow:    3px 3px 4px rgba(44, 50, 50, 0.10);
+	box-shadow:         3px 3px 4px rgba(44, 50, 50, 0.10);
+	
+	/* IE crap */
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#000000');
+}
+
+table.default_tbl tr:hover 
+{
+	background-color: #fafafa;
+}
+
+table.default_tbl tr.inactive {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+table.default_tbl tr.active {
+	background-color: #efefef;
+	color: #c0c0c0;
+}
+
+
+table.default_tbl th
+{
+	background-color: #ddd;
+	color: #555;
+	text-shadow: #fff 1px 1px 1px;
+	border: 1px solid #c0c0c0;		
+}
+
+table.default_tbl th a
+{
+	font-size: 10px;
+	color: #f00;
+	text-decoration: none;	
+}
+
+table.default_tbl td
+{
+	text-align: center;
+	border: 1px solid #eee;
+	padding: 3px 0;
+}
+table.default_tbl td span 
+{
+	display: block;
+}
+
+table.default_tbl td a
+{
+	text-decoration: none;
+	color: #f00;
+}
+table.default_tbl td a:hover
+{
+	color: #b81111;
+}
+table.default_tbl td img 
+{
+	border: none;
+}
+
+/***************/
+/* Client page */
+div.main_half div.form_row {
+	margin: 10px;	
+	font-size: 12px;	
+}
+
+div.main_half div.form_row div {
+	width: 140px;
+	float: left;
+	margin-top: 1px;
+	font-weight: 800;
+	text-align: right;
+	padding-right: 10px;
+}
+
+/**********/
+/* Manage */
+div.main_full
+{
+	overflow: auto;
+}
+div.main_full h1
+{
+	font-size: 12px;
+}
+
+div.main_full div.label
+{
+	width: 100px; 
+	text-align: right;
+	float: left;
+	margin-right: 10px;
+	font-weight:900;		
+}
+
+div.main_full form {
+	font-size: 10px;
+	color: #777;	
+}
+
+div.main_full form fieldset {
+	border: 1px solid #c0c0c0;
+}
+
+
+div.main_full div.form_row {
+	margin: 10px;		
+}
+
+div.main_full div.form_row div {
+	width: 100px;
+	float: left;
+	margin-top: 1px;
+	font-weight: 800;
+	text-align: right;
+	padding-right: 10px;
+}
+
+div.main_full div.form_row input.small
+{
+	width: 85px;	
+}
+div.main_full .titled
+{
+	display: block;
+	padding-left: 12px;
+}
+div.main_full textarea.startup
+{
+	width: 99%;
+	min-height: 80px;
+	clear: both;
+}
+
+div.main_full input 
+{
+	vertical-align: middle;
+}
+
+/*************/
+/* Configure */
+div.configure h1
+{
+	border: 1px solid #eee;
+	padding: 3px 10px;
+	text-shadow: #ddd 1px 1px 1px;
+}
+div.configure ul
+{
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	padding: 5px;
+	background: #fff;
+	text-shadow: #eee 1px 1px 1px;
+}
+div.configure p
+{
+	border: 1px solid #eee;
+	padding: 10px;
+	background: #fafafa;
+	text-shadow: #c0c0c0 1px 1px 1px;
+}
+div.configure input[type=text]
+{
+	width: 200px;
+}
+div.configure div.form_row {
+	margin: 10px;		
+}
+
+div.configure div.form_row div {
+	width: 250px;
+	float: left;
+	margin-top: 1px;
+	font-weight: 800;
+	text-align: right;
+	padding-right: 10px;
+}

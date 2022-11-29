@@ -1,0 +1,16 @@
+## DISALLOW ANY ACCESS TO THIS FILE ##
+<Files .htaccess>
+ order allow,deny
+ deny from all
+</Files>
+
+## MOD_REWRITE ##
+<IfModule mod_rewrite.c>
+
+# No access
+Deny from all
+
+</IfModule>  
+
+
+

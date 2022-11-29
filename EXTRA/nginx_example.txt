@@ -1,0 +1,35 @@
+server
+{
+    server_name *URL*;
+
+    access_log /*PATH*/;
+    error_log /*PATH*/;
+
+    root /*WWW-PATH*/;
+    index index.php index.html index.htm;
+
+    location ~ /(cache|core|modules|plugins) {
+        deny all;
+        return 404;
+    }
+   
+    location ~* /templates/.*\.php$
+    {
+        return 403;
+    }
+
+    location / {
+        try_files $uri $uri/ /index.php?$args;
+    }              
+
+    # use fastcgi for all php files
+    location ~ \.php$
+    {
+        fastcgi_split_path_info ^(.+\.php)(/.+)$;
+        try_files $uri =404;
+        fastcgi_pass 127.0.0.1:9000;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+}
